@@ -1,85 +1,85 @@
 * {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html,
 body {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 body {
-  font-family: "Lato", sans-serif;
-  color: #fff;
-  background-color: #0c0c0c;
+    font-family: "Lato", sans-serif;
+    color: #fff;
+    background-color: #0c0c0c;
 }
 
 .site-wrapper {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 ::-webkit-scrollbar {
-  width: 0px;
+    width: 0px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ff0000;
+    background: #ff0000;
 }
 
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 0.5rem;
+    list-style: none;
+    display: inline-block;
+    padding: 0.5rem;
 }
 
 a:hover,
 a:visited,
 a:link,
 a:active {
-  text-decoration: none;
-  color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 
 p {
-  font-size: 2rem;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
 }
 
 section {
-  padding: 10rem 0;
+    padding: 10rem 0;
 }
 
 .sub-heading {
-  font-size: 9.5rem;
-  font-weight: 700;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  text-align: center;
+    font-size: 9.5rem;
+    font-weight: 700;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
 }
 
 .s-heading {
-  font-size: 3rem;
-  font-weight: 300;
-  padding-top: 5rem;
-  padding-bottom: 3rem;
-  text-align: left;
-  letter-spacing: 3px;
+    font-size: 3rem;
+    font-weight: 300;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    text-align: left;
+    letter-spacing: 3px;
 }
 
 .icon {
-  font-size: 4.8rem;
-  padding-right: 2rem;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-  text-rendering: optimizeLegibility;
+    font-size: 4.8rem;
+    padding-right: 2rem;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    text-rendering: optimizeLegibility;
 }
 
 /* SECTION EXPLORE */
@@ -87,153 +87,158 @@ section {
 /* OVERLAY 1 */
 
 .overlay {
-  z-index: 2;
-  position: fixed;
-  width: 100vw;
-  height: 101vh;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      right bottom,
-      from(rgba(0, 0, 0, 0.356)),
-      to(rgba(0, 0, 0, 0.356))
-    ),
-    url(../img/hero.jpg) no-repeat center center/cover;
-  background: linear-gradient(
-      to right bottom,
-      rgba(0, 0, 0, 0.356),
-      rgba(0, 0, 0, 0.356)
-    ),
-    url(../img/hero.jpg) no-repeat center center/cover;
+    z-index: 2;
+    position: fixed;
+    width: 100vw;
+    height: 101vh;
+    background: -webkit-gradient(
+            linear,
+            left top,
+            right bottom,
+            from(rgba(0, 0, 0, 0.356)),
+            to(rgba(0, 0, 0, 0.356))
+        ),
+        url(../img/hero.jpg) no-repeat center center/cover;
+    background: linear-gradient(
+            to right bottom,
+            rgba(0, 0, 0, 0.356),
+            rgba(0, 0, 0, 0.356)
+        ),
+        url(../img/hero.jpg) no-repeat center center/cover;
 }
 
 .overlay p {
-  font-size: 18rem;
-  font-weight: 300;
-  letter-spacing: 1.3rem;
-  text-align: center;
+    font-size: 18rem;
+    font-weight: 300;
+    letter-spacing: 1.3rem;
+    text-align: center;
 }
 
 .overlay .secondary {
-  font-size: 2.5rem;
-  font-weight: 300;
-  text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: center;
 }
 
 .screen,
 .screen-2 {
-  color: #fff;
-  font-family: "Lato", sans-serif;
-  position: absolute;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .screen {
-  top: 30%;
-  left: 50%;
+    top: 30%;
+    left: 50%;
 }
 
 .screen-2 {
-  top: 75%;
-  left: 50%;
+    top: 75%;
+    left: 50%;
 }
 
 .myBtn {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  border-radius: 5px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
 }
 
 button {
-  display: block;
-  padding: 2.4rem;
-  font-family: "Lato", sans-serif;
-  font-weight: 100;
-  font-size: 1.2rem;
-  letter-spacing: 6px;
-  color: #fff;
-  border: 2px solid #fff;
-  text-transform: uppercase;
-  outline: none;
-  overflow: hidden;
-  background: none;
-  z-index: 1;
-  -webkit-transition: 0.8s ease-out;
-  transition: 0.8s ease-out;
+    display: block;
+    padding: 2.4rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-size: 1.2rem;
+    letter-spacing: 6px;
+    color: #fff;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    background: none;
+    z-index: 1;
+    -webkit-transition: 0.8s ease-out;
+    transition: 0.8s ease-out;
 }
 
 .myBtn:hover {
-  color: #101010;
+    color: #101010;
 }
 
 .myBtn:before {
-  content: "";
-  position: absolute;
-  background: #fff;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 100%;
-  z-index: -1;
-  -webkit-transition: top 0.8s ease-out;
-  transition: top 0.8s ease-out;
+    content: "";
+    position: absolute;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    -webkit-transition: top 0.8s ease-out;
+    transition: top 0.8s ease-out;
 }
 
 .myBtn:hover:before {
-  top: 0;
+    top: 0;
 }
 
-.myBtn:focus{
+.myBtn:focus {
     outline: none;
 }
 
 /* CONTENT */
 
 .content {
-  padding-top: 30rem;
-  margin: 0 auto;
-  z-index: -2;
-  -webkit-transform: translate(0, 50%);
-  transform: translate(0, 50%);
-  height: 100%;
-  width: 100%;
+    padding-top: 30rem;
+    margin: 0 auto;
+    z-index: -2;
+    -webkit-transform: translate(0, 50%);
+    transform: translate(0, 50%);
+    height: 100%;
+    width: 100%;
 }
 
 /* BRITO IMG */
 
 #brito {
-  background: url(../img/britojs.jpg) no-repeat center center/cover;
-  height: 60vh;
+    background: url(../img/britojs.jpg) no-repeat center center/cover;
+    height: 60vh;
 }
 
 /* SECTION ABOUT  */
 
 .scroll-heading {
-  padding-top: 5rem;
-  margin: auto;
-  font-size: 3rem;
-  font-weight: 300;
+    padding-top: 5rem;
+    margin: auto;
+    font-size: 3rem;
+    font-weight: 300;
 }
 
 /* SECTION PROJECTS */
 
+.project-text {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
 .link,
 .github2 {
-  font-size: 2.5rem;
-  padding: 1rem;
-  color: rgb(199, 55, 55);
+    font-size: 2.5rem;
+    padding: 1rem;
+    color: rgb(199, 55, 55);
 }
 
 .proimg1 {
-  background: url("../img/playspace.png") no-repeat center center/cover;
-  height: 40vh;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-  opacity: 0.5;
+    background: url("../img/playspace.png") no-repeat center center/cover;
+    height: 40vh;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0.5;
 }
 
 .proimg1:hover,
@@ -246,142 +251,142 @@ button {
 .proimg8:hover,
 .proimg9:hover,
 .proimg10:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .proimg2 {
-  background: url("../img/thehike.png") no-repeat center center/cover;
-  height: 40vh;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-  opacity: 0.5;
+    background: url("../img/thehike.png") no-repeat center center/cover;
+    height: 40vh;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0.5;
 }
 
 .proimg3 {
-  background: url("../img/skudra.png") no-repeat center center/cover;
-  height: 40vh;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-  opacity: 0.5;
+    background: url("../img/skudra.png") no-repeat center center/cover;
+    height: 40vh;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0.5;
 }
 
 .proimg4 {
-  background: url("../img/akg.png") no-repeat center center/cover;
-  height: 40vh;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-  opacity: 0.5;
+    background: url("../img/akg.png") no-repeat center center/cover;
+    height: 40vh;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0.5;
 }
 
 .proimg5 {
-  background: url("../img/bayview.png") no-repeat center center/cover;
-  height: 40vh;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-  opacity: 0.5;
+    background: url("../img/bayview.png") no-repeat center center/cover;
+    height: 40vh;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0.5;
 }
 
 .proimg6 {
-  background: url("../img/productivo.png") no-repeat center center/cover;
-  height: 40vh;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-  opacity: 0.5;
+    background: url("../img/productivo.png") no-repeat center center/cover;
+    height: 40vh;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0.5;
 }
 
 .proimg7 {
-  background: url("../img/bmw.png") no-repeat center center/cover;
-  height: 40vh;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-  opacity: 0.5;
+    background: url("../img/bmw.png") no-repeat center center/cover;
+    height: 40vh;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0.5;
 }
 
 .proimg8 {
-  background: url("../img/apex.png") no-repeat center center/cover;
-  height: 40vh;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-  opacity: 0.5;
+    background: url("../img/apex.png") no-repeat center center/cover;
+    height: 40vh;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0.5;
 }
 
 .proimg9 {
-  background: url("../img/vizcaya.png") no-repeat center center/cover;
-  height: 40vh;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-  opacity: 0.5;
+    background: url("../img/vizcaya.png") no-repeat center center/cover;
+    height: 40vh;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0.5;
 }
 
 .proimg10 {
-  background: url("../img/apple.png") no-repeat center center/cover;
-  height: 40vh;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-  opacity: 0.5;
+    background: url("../img/apple.png") no-repeat center center/cover;
+    height: 40vh;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0.5;
 }
 
 /* SECTION SKILLS */
 #skills .skills {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.452)),
-      to(rgba(0, 0, 0, 0.452))
-    ),
-    url("../img/skills.jpg") no-repeat center center/cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)),
-    url("../img/skills.jpg") no-repeat center center/cover;
-  height: 85vh;
-  color: #fff;
+    background: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            from(rgba(0, 0, 0, 0.452)),
+            to(rgba(0, 0, 0, 0.452))
+        ),
+        url("../img/skills.jpg") no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)),
+        url("../img/skills.jpg") no-repeat center center/cover;
+    height: 85vh;
+    color: #fff;
 }
 
 #skills p {
-  font-weight: 300;
+    font-weight: 300;
 }
 
 #skills ul li {
-  display: block;
+    display: block;
 }
 #skills {
-  text-align: center;
+    text-align: center;
 }
 
 .skills-list {
-  margin-top: 3rem;
+    margin-top: 3rem;
 }
 
 /* SECTION WHY */
 #why .s-heading,
 #why p {
-  text-align: center;
+    text-align: center;
 }
 
 /* SECTION CONNECT */
 
 #connect .s-heading {
-  font-size: 4rem;
-  text-align: center;
-  border: 1px solid #fff;
-  border-radius: 20px;
-  padding: 1rem;
-  margin: 2rem 0;
+    font-size: 4rem;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 2rem 0;
 }
 
 #connect ul li {
-  display: block;
+    display: block;
 }
 
 /* FOOTER */
 
 footer {
-  text-align: center;
-  padding-top: 5rem;
+    text-align: center;
+    padding-top: 5rem;
 }
 
 footer p {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 /* -----------------------
@@ -394,71 +399,71 @@ MEDIA QUERIES
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .site-wrapper {
-    overflow: hidden;
-  }
+    .site-wrapper {
+        overflow: hidden;
+    }
 
-  p {
-    font-weight: 300;
-  }
+    p {
+        font-weight: 300;
+    }
 
-  .overlay {
-    width: 100vw;
-    height: 90vh;
-    position: absolute;
-  }
+    .overlay {
+        width: 100vw;
+        height: 90vh;
+        position: absolute;
+    }
 
-  .overlay p {
-    font-size: 3rem;
-  }
+    .overlay p {
+        font-size: 3rem;
+    }
 
-  .overlay .secondary {
-    font-size: 2rem;
-  }
+    .overlay .secondary {
+        font-size: 2rem;
+    }
 
-  #brito {
-    width: 110vw;
-  }
+    #brito {
+        width: 110vw;
+    }
 
-  .screen {
-    top: 30%;
-    left: 52.5%;
-  }
+    .screen {
+        top: 30%;
+        left: 52.5%;
+    }
 
-  button {
-    font-size: 1rem;
-    padding: 2rem;
-  }
+    button {
+        font-size: 1rem;
+        padding: 2rem;
+    }
 
-  #about p {
-    width: 100%;
-  }
+    #about p {
+        width: 100%;
+    }
 
-  .pro {
-    padding: 3rem 0;
-  }
+    .pro {
+        padding: 3rem 0;
+    }
 
-  #projects .row {
-    margin: 3rem 0;
-  }
+    #projects .row {
+        margin: 3rem 0;
+    }
 
-  .sub-heading {
-    font-size: 5rem;
-  }
+    .sub-heading {
+        font-size: 5rem;
+    }
 
-  .s-heading {
-    font-size: 2rem;
-    text-align: left;
-  }
+    .s-heading {
+        font-size: 2rem;
+        text-align: left;
+    }
 
-  p {
-    font-size: 1.5rem;
-  }
+    p {
+        font-size: 1.5rem;
+    }
 
-  .scroll-heading {
-    font-size: 2rem;
-    font-weight: 400;
-  }
+    .scroll-heading {
+        font-size: 2rem;
+        font-weight: 400;
+    }
 }
 
 /* 
@@ -467,47 +472,47 @@ MEDIA QUERIES
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .site-wrapper {
-    overflow: hidden;
-  }
+    .site-wrapper {
+        overflow: hidden;
+    }
 
-  .overlay {
-    width: 100vw;
-  }
+    .overlay {
+        width: 100vw;
+    }
 
-  .overlay p {
-    font-size: 3rem;
-  }
+    .overlay p {
+        font-size: 3rem;
+    }
 
-  .overlay .secondary {
-    font-size: 2rem;
-  }
+    .overlay .secondary {
+        font-size: 2rem;
+    }
 
-  button {
-    font-size: 1rem;
-    padding: 2rem;
-  }
+    button {
+        font-size: 1rem;
+        padding: 2rem;
+    }
 
-  #about {
-    margin-top: 5rem;
-  }
+    #about {
+        margin-top: 5rem;
+    }
 
-  #about p {
-    width: 130%;
-  }
+    #about p {
+        width: 130%;
+    }
 
-  .sub-heading {
-    font-size: 3rem;
-  }
+    .sub-heading {
+        font-size: 3rem;
+    }
 
-  .s-heading {
-    font-size: 2rem;
-    text-align: left;
-  }
+    .s-heading {
+        font-size: 2rem;
+        text-align: left;
+    }
 
-  p {
-    font-size: 1.5rem;
-  }
+    p {
+        font-size: 1.5rem;
+    }
 }
 
 /* 
@@ -516,30 +521,30 @@ MEDIA QUERIES
 */
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .site-wrapper {
-    overflow: hidden;
-  }
+    .site-wrapper {
+        overflow: hidden;
+    }
 
-  .overlay {
-    width: 110vw;
-  }
+    .overlay {
+        width: 110vw;
+    }
 
-  .overlay p {
-    font-size: 10rem;
-  }
+    .overlay p {
+        font-size: 10rem;
+    }
 
-  .overlay .secondary {
-    font-size: 3.5rem;
-  }
+    .overlay .secondary {
+        font-size: 3.5rem;
+    }
 
-  button {
-    font-size: 2rem;
-    padding: 2rem;
-  }
+    button {
+        font-size: 2rem;
+        padding: 2rem;
+    }
 
-  #projects .btn {
-    font-size: 2rem;
-  }
+    #projects .btn {
+        font-size: 2rem;
+    }
 }
 
 /* 
@@ -548,80 +553,80 @@ MEDIA QUERIES
 */
 
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
-  .site-wrapper {
-    overflow: hidden;
-  }
+    .site-wrapper {
+        overflow: hidden;
+    }
 
-  .overlay {
-    width: 110vw;
-  }
+    .overlay {
+        width: 110vw;
+    }
 
-  .overlay p {
-    font-size: 10rem;
-  }
+    .overlay p {
+        font-size: 10rem;
+    }
 
-  .overlay .secondary {
-    font-size: 3.5rem;
-  }
+    .overlay .secondary {
+        font-size: 3.5rem;
+    }
 
-  button {
-    font-size: 1rem;
-    padding: 2rem;
-  }
+    button {
+        font-size: 1rem;
+        padding: 2rem;
+    }
 
-  #projects .btn {
-    font-size: 2rem;
-  }
+    #projects .btn {
+        font-size: 2rem;
+    }
 }
 
 @media only screen and (max-width: 812px) and (max-height: 375px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
-  .site-wrapper {
-    overflow: hidden;
-  }
+    .site-wrapper {
+        overflow: hidden;
+    }
 
-  .overlay {
-    width: 110vw;
-  }
+    .overlay {
+        width: 110vw;
+    }
 
-  .overlay p {
-    font-size: 3rem;
-  }
+    .overlay p {
+        font-size: 3rem;
+    }
 
-  .overlay .secondary {
-    font-size: 2rem;
-  }
+    .overlay .secondary {
+        font-size: 2rem;
+    }
 
-  .screen {
-    top: 30%;
-    left: 50%;
-  }
+    .screen {
+        top: 30%;
+        left: 50%;
+    }
 
-  button {
-    font-size: 1rem;
-    padding: 1rem;
-  }
+    button {
+        font-size: 1rem;
+        padding: 1rem;
+    }
 
-  #about p {
-    width: 130%;
-  }
+    #about p {
+        width: 130%;
+    }
 
-  #projects .btn {
-    margin-bottom: 3rem;
-    font-size: 1rem;
-  }
+    #projects .btn {
+        margin-bottom: 3rem;
+        font-size: 1rem;
+    }
 
-  .sub-heading {
-    font-size: 3rem;
-  }
+    .sub-heading {
+        font-size: 3rem;
+    }
 
-  .s-heading {
-    font-size: 2rem;
-    text-align: left;
-  }
+    .s-heading {
+        font-size: 2rem;
+        text-align: left;
+    }
 
-  p {
-    font-size: 1.5rem;
-  }
+    p {
+        font-size: 1.5rem;
+    }
 }
 
 /* 
@@ -630,35 +635,35 @@ MEDIA QUERIES
 */
 
 @media (min-width: 1024px) and (max-width: 1280px) {
-  .site-wrapper {
-    overflow: hidden;
-  }
+    .site-wrapper {
+        overflow: hidden;
+    }
 
-  .overlay {
-    width: 110vw;
-    height: 100vh;
-  }
+    .overlay {
+        width: 110vw;
+        height: 100vh;
+    }
 
-  .overlay p {
-    font-size: 10rem;
-  }
+    .overlay p {
+        font-size: 10rem;
+    }
 
-  .overlay .secondary {
-    font-size: 3.5rem;
-  }
+    .overlay .secondary {
+        font-size: 3.5rem;
+    }
 
-  #about {
-    margin-top: 5rem;
-  }
+    #about {
+        margin-top: 5rem;
+    }
 
-  button {
-    font-size: 2rem;
-    padding: 2rem;
-  }
+    button {
+        font-size: 2rem;
+        padding: 2rem;
+    }
 
-  #projects .btn {
-    font-size: 2rem;
-  }
+    #projects .btn {
+        font-size: 2rem;
+    }
 }
 
 /* Landscape for Ipad Pro*/
