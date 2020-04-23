@@ -165,21 +165,21 @@ ScrollReveal().reveal(".cli2", {
     duration: 2000,
     origin: "bottom",
     distance: "10rem",
-    delay: 300,
+    delay: 400,
 });
 
 ScrollReveal().reveal(".cli3", {
     duration: 2000,
     origin: "bottom",
     distance: "10rem",
-    delay: 300,
+    delay: 500,
 });
 
 ScrollReveal().reveal(".cli4", {
     duration: 2000,
     origin: "bottom",
     distance: "10rem",
-    delay: 300,
+    delay: 600,
 });
 
 ScrollReveal().reveal("#footer", {
