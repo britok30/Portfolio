@@ -12,9 +12,10 @@ body {
 }
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #fff;
-    background-color: #0c0c0c;
+    /* background-color: #0c0c0c; */
+    background-color: #020c1b;
 }
 
 .site-wrapper {
@@ -59,6 +60,14 @@ section {
 
 .sub-heading {
     font-size: 9.5rem;
+    font-weight: 700;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.mini-heading {
+    font-size: 6rem;
     font-weight: 700;
     padding-top: 5rem;
     padding-bottom: 5rem;
