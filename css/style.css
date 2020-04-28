@@ -14,8 +14,8 @@ body {
 body {
     font-family: "Poppins", sans-serif;
     color: #fff;
-    /* background-color: #0c0c0c; */
-    background-color: #020c1b;
+    background-color: #0c0c0c;
+    /* background-color: #020c1b; */
 }
 
 .site-wrapper {
@@ -215,8 +215,8 @@ button {
 /* BRITO IMG */
 
 #brito {
-    background: url(../img/britojs.jpg) no-repeat center center/cover;
-    height: 60vh;
+    background: url(../img/header.jpg) no-repeat center center/cover;
+    height: 75vh;
 }
 
 /* SECTION ABOUT  */
@@ -337,34 +337,28 @@ button {
 
 /* SECTION SKILLS */
 #skills {
-    background: -webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            from(rgba(0, 0, 0, 0.452)),
-            to(rgba(0, 0, 0, 0.452))
-        ),
-        url("../img/skills.jpg") no-repeat center center/cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)),
-        url("../img/skills.jpg") no-repeat center center/cover;
     height: 85vh;
     color: #fff;
 }
 
-#skills p {
-    font-weight: 300;
+#skills ul {
+    list-style: none;
 }
 
-#skills ul li {
+#skills li {
+    font-size: 3rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    opacity: 0.5;
     display: block;
 }
-#skills {
-    text-align: center;
+
+#skills li:hover {
+    color: #ff0000;
+    opacity: 1;
+    cursor: default;
 }
 
-.skills-list {
-    margin-top: 3rem;
-}
 
 /* SECTION WHY */
 #why .s-heading,
