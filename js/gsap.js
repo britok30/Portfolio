@@ -48,4 +48,9 @@ function fadeOut() {
         delay: 3.5,
         ease: Power2.easeInOut,
     });
+
+    document.body.className = document.body.className.replace(
+        "overlay-open",
+        ""
+    );
 }

@@ -18,6 +18,10 @@ body {
     /* background-color: #020c1b; */
 }
 
+body.overlay-open {
+    overflow: hidden;
+}
+
 .site-wrapper {
     overflow: hidden;
 }

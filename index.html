@@ -28,6 +28,14 @@
             gtag("config", "UA-152343503-1");
         </script>
 
+        <script>
+            window.onload = function () {
+                setTimeout(function () {
+                    scrollTo(0, 0);
+                }, 100); //100ms for example
+            };
+        </script>
+
         <!-- Google Fonts -->
         <link
             href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700&display=swap"
@@ -59,7 +67,7 @@
         <title>Kelvin Brito | Front End Software Engineer</title>
     </head>
 
-    <body>
+    <body class="overlay-open">
         <div class="site-wrapper">
             <header>
                 <div class="overlay">
