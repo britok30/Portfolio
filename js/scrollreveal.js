@@ -56,19 +56,19 @@ ScrollReveal().reveal(".pro8", {
     delay: 300,
 });
 
-ScrollReveal().reveal(".pro9", {
-    duration: 1500,
-    origin: "bottom",
-    distance: "10rem",
-    delay: 300,
-});
+// ScrollReveal().reveal(".pro9", {
+//     duration: 1500,
+//     origin: "bottom",
+//     distance: "10rem",
+//     delay: 300,
+// });
 
-ScrollReveal().reveal(".pro10", {
-    duration: 1500,
-    origin: "bottom",
-    distance: "10rem",
-    delay: 300,
-});
+// ScrollReveal().reveal(".pro10", {
+//     duration: 1500,
+//     origin: "bottom",
+//     distance: "10rem",
+//     delay: 300,
+// });
 
 ScrollReveal().reveal(".skillz1", {
     duration: 1500,
