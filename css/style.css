@@ -268,7 +268,7 @@ button {
 }
 
 .proimg2 {
-    background: url("../img/thehike.png") no-repeat center center/cover;
+    background: url("../img/apple.png") no-repeat center center/cover;
     height: 40vh;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
@@ -276,7 +276,7 @@ button {
 }
 
 .proimg3 {
-    background: url("../img/skudra.png") no-repeat center center/cover;
+    background: url("../img/covid.png") no-repeat center center/cover;
     height: 40vh;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
@@ -284,46 +284,6 @@ button {
 }
 
 .proimg4 {
-    background: url("../img/akg.png") no-repeat center center/cover;
-    height: 40vh;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-    opacity: 0.5;
-}
-
-.proimg5 {
-    background: url("../img/bayview.png") no-repeat center center/cover;
-    height: 40vh;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-    opacity: 0.5;
-}
-
-.proimg6 {
-    background: url("../img/productivo.png") no-repeat center center/cover;
-    height: 40vh;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-    opacity: 0.5;
-}
-
-.proimg7 {
-    background: url("../img/bmw.png") no-repeat center center/cover;
-    height: 40vh;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-    opacity: 0.5;
-}
-
-.proimg8 {
-    background: url("../img/apex.png") no-repeat center center/cover;
-    height: 40vh;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-    opacity: 0.5;
-}
-
-.proimg9 {
     background: url("../img/vizcaya.png") no-repeat center center/cover;
     height: 40vh;
     -webkit-transition: all 0.4s;
@@ -331,13 +291,46 @@ button {
     opacity: 0.5;
 }
 
-.proimg10 {
-    background: url("../img/apple.png") no-repeat center center/cover;
+.proimg5 {
+    background: url("../img/thehike.png") no-repeat center center/cover;
     height: 40vh;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
     opacity: 0.5;
 }
+
+.proimg6 {
+    background: url("../img/skudra.png") no-repeat center center/cover;
+    height: 40vh;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0.5;
+}
+
+.proimg7 {
+    background: url("../img/akg.png") no-repeat center center/cover;
+    height: 40vh;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0.5;
+}
+
+.proimg8 {
+    background: url("../img/productivo.png") no-repeat center center/cover;
+    height: 40vh;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0.5;
+}
+
+.proimg9 {
+    background: url("../img/apex.png") no-repeat center center/cover;
+    height: 40vh;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0.5;
+}
+
 
 /* SECTION SKILLS */
 #skills {
