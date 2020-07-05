@@ -219,8 +219,37 @@ button {
 /* BRITO IMG */
 
 #brito {
-    background: url(../img/britojs2.png) no-repeat center center/cover;
+    background: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.507),
+            rgba(0, 0, 0, 0.507)
+        ),
+        url(../img/britojs2.jpg) no-repeat center center/cover;
     height: 75vh;
+    position: relative;
+}
+
+.brito-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.brito-text h3,
+.brito-text p {
+    text-align: center;
+}
+
+.brito-text h3 {
+    font-size: 5rem;
+    letter-spacing: 2rem;
+}
+
+.brito-text p {
+    font-size: 2rem;
+    font-family: "Merriweather", serif;
+    letter-spacing: 1rem;
 }
 
 /* SECTION ABOUT  */
@@ -246,14 +275,6 @@ button {
     color: rgb(199, 55, 55);
 }
 
-.proimg1 {
-    background: url("../img/playspace.png") no-repeat center center/cover;
-    height: 40vh;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-    opacity: 0.5;
-}
-
 .proimg1:hover,
 .proimg2:hover,
 .proimg3:hover,
@@ -265,72 +286,63 @@ button {
 .proimg9:hover,
 .proimg10:hover {
     opacity: 1;
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+.proimg1,
+.proimg2,
+.proimg3,
+.proimg4,
+.proimg5,
+.proimg6,
+.proimg7,
+.proimg8,
+.proimg9,
+.proimg10 {
+    height: 40vh;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0.5;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+.proimg1 {
+    background: url("../img/playspace.png") no-repeat center center/cover;
 }
 
 .proimg2 {
     background: url("../img/apple.png") no-repeat center center/cover;
-    height: 40vh;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-    opacity: 0.5;
 }
 
 .proimg3 {
     background: url("../img/covid.png") no-repeat center center/cover;
-    height: 40vh;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-    opacity: 0.5;
 }
 
 .proimg4 {
     background: url("../img/vizcaya.png") no-repeat center center/cover;
-    height: 40vh;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-    opacity: 0.5;
 }
 
 .proimg5 {
     background: url("../img/thehike.png") no-repeat center center/cover;
-    height: 40vh;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-    opacity: 0.5;
 }
 
 .proimg6 {
     background: url("../img/skudra.png") no-repeat center center/cover;
-    height: 40vh;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-    opacity: 0.5;
 }
 
 .proimg7 {
     background: url("../img/akg.png") no-repeat center center/cover;
-    height: 40vh;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-    opacity: 0.5;
 }
 
 .proimg8 {
     background: url("../img/productivo.png") no-repeat center center/cover;
-    height: 40vh;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-    opacity: 0.5;
 }
 
 .proimg9 {
     background: url("../img/apex.png") no-repeat center center/cover;
-    height: 40vh;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-    opacity: 0.5;
 }
-
 
 /* SECTION SKILLS */
 #skills {
@@ -363,24 +375,18 @@ button {
 
 /* SECTION CONNECT */
 
-#connect a {
+.touch {
     font-size: 3rem;
     transition: all 0.4s;
     opacity: 0.5;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
-#connect a:hover {
+.touch:hover {
     color: #ff0000;
     opacity: 1;
-}
-
-#connect ul {
-    justify-content: center;
-    display: flex;
-}
-
-#connect ul li {
-    padding: 2rem;
 }
 
 .hr {
