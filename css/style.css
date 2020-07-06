@@ -272,7 +272,7 @@ button {
 .github2 {
     font-size: 2.5rem;
     padding: 1rem;
-    color: rgb(199, 55, 55);
+    color: rgb(199, 55, 55) !important;
 }
 
 .proimg1:hover,
